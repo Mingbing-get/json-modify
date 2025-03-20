@@ -1,5 +1,5 @@
 {
-  "name": "json-modify",
+  "name": "@easy-coder/json-modify",
   "version": "0.0.1",
   "description": "json差异对比, 根据差异恢复数据",
   "private": true,

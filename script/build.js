@@ -17,7 +17,7 @@ async function startBuild() {
   await build({
     plugins: [
       dts.default({
-        exclude: ['vite.config.ts', '/src/*/src/**/__test__/**/*'],
+        exclude: ['vite.config.ts', '**/__test__/**/*'],
       }),
     ],
     build: {
